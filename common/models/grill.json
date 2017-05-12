@@ -1,0 +1,39 @@
+{
+  "name": "grill",
+  "plural": "grills",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "grillname": {
+      "type": "string",
+      "required": true
+    },
+    "kapazitaet": {
+      "type": "number",
+      "required": true
+    },
+    "mietPreis": {
+      "type": "number",
+      "required": true
+    },
+    "besitzer": {
+      "type": "string",
+      "required": true
+    },
+    "mieter": {
+      "type": "string"
+    },
+    "vermietet": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
