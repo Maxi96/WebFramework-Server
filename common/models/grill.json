@@ -1,7 +1,7 @@
 {
   "name": "grill",
   "plural": "grills",
-  "base": "Model",
+  "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true

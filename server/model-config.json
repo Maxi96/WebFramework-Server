@@ -36,7 +36,7 @@
     "public": false
   },
   "grill": {
-    "dataSource": null,
+    "dataSource": "db",
     "public": true
   }
 }
