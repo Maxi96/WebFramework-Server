@@ -30,6 +30,16 @@
       "type": "boolean",
       "required": true,
       "default": false
+    },
+    "location":{
+      "lat":{
+        "type":"number",
+        "required": true
+      },
+      "lng":{
+        "type": "number",
+        "required": true
+      }
     }
   },
   "validations": [],
